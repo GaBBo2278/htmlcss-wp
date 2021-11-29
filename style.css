@@ -82,15 +82,26 @@ body{
 /* IMPOSTATO LE GRANDEZZE E IL COLORE DELLA SEZIONE BLU */
 .blue{
     width: 100%;
-    background-color: #0186ff;
     padding-bottom: 2%;
 }
 /* IMPOSTATO LE GRANDEZZE E IL COLORE DELLA SEZIONE AZZURA */
 .light-blue-up{
-    background-color: #abcfe7;
     width: 100%;
     height: 50px;
     margin: 2% auto;
+    position: relative
+}
+/* IMPOSTATO GRANDEZZA DEL TITOLO E CAMBIATO FONT NEL TITOLO DELLA SEZIONE AZZURA DI SOPRA*/
+.light-blue-up h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.7rem;
+}
+/* IMPOSTATO LA POSIZIONE, IL COLORE E LA GRANDEZZA DEL TESTO NELLA SEZIONE AZZURA DI SOPRA */
+.light-blue-up > span {
+    position: absolute;
+    color: grey;
+    top: 60%;
+    font-size: 0.8rem;
 }
 /* IMPOSTATO LE GRANDEZZE, IL COLORE E IL FLOAT DELLE SEZIONI AZZURE PICCOLE */
 .light-blue-s{
