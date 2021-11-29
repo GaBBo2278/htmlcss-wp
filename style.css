@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;;
 }
 
 body{
@@ -9,7 +10,7 @@ body{
     width: 80%;
 }
 
-/* IMPOSTATO LA GRANDEZZA E IL COLORE DELL'INTESTAZIONE */
+/* IMPOSTATO LA GRANDEZZA */
 .heading{
     width: 100%;
     height: 100px;
@@ -38,11 +39,45 @@ body{
     text-transform: uppercase;
     color: grey;
 }
-/* IMPOSTATO L'ALTEZZA IL COLORE E I MARGINI DELLA SEZIONE */
+/* IMPOSTATO L'ALTEZZA E I MARGINI DELLA SEZIONE */
 .yellow{
-    background-color: #e1d67a;
+    position: relative;
     height: 500px;
     margin: 2% auto;
+}
+/* IMPOSTATO GRANDEZZE IMMAGINE */
+.yellow img {
+    position: absolute;  
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}  
+/* CREATO OVERLAY PER IL BANNER 1   */
+.overlay {
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+    border-radius: 10px;
+}
+/* IMPOSTATO GRANDEZZE E COLORE PER IL TESTO DEL BANNER 1 */
+.text {
+    position: absolute;
+    color: white;
+    width: 60%;
+    padding: 50px 40px;
+    bottom: 10px;
+}
+/* IMPOSTATO LA GRANDEZZA E IL PESO DEL CARATTERE DEL TITOLO DEL BANNER 1*/
+.text h3 {
+    font-size: 1.7rem;
+    font-weight: lighter;
+}
+/* IMPOSTATO LA GRANDEZZA DEL TESTO DEL BANNER 1 */
+.text p {
+    font-size: 0.9rem;
 }
 /* IMPOSTATO LE GRANDEZZE E IL COLORE DELLA SEZIONE BLU */
 .blue{
