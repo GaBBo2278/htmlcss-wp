@@ -154,8 +154,13 @@ body{
 }
 /* IMPOSTATO LE GRANDEZZE E IL COLORE DEL PIE' DI pagina */
 .foot {
-    background-color: #8801fe;
     width: 100%;
     height: 50px;
     margin-top: 1%;
+    text-align: center;
+}
+/* IMPOSTATO IL COLORE E LA DIMENSIONE DEL TESTO NELLA SEZIONE DEL PIE DI PAGINA */
+.foot span{
+    color: #f00;
+    font-size: 1.5em;
 }
