@@ -84,36 +84,64 @@ body{
     width: 100%;
     padding-bottom: 2%;
 }
-/* IMPOSTATO LE GRANDEZZE E IL COLORE DELLA SEZIONE AZZURA */
+/* IMPOSTATO LE GRANDEZZE E IL COLORE DELLA SEZIONE AZZURRA */
 .light-blue-up{
     width: 100%;
     height: 50px;
     margin: 2% auto;
     position: relative
 }
-/* IMPOSTATO GRANDEZZA DEL TITOLO E CAMBIATO FONT NEL TITOLO DELLA SEZIONE AZZURA DI SOPRA*/
+/* IMPOSTATO GRANDEZZA DEL TITOLO E CAMBIATO FONT NEL TITOLO DELLA SEZIONE AZZURRA DI SOPRA*/
 .light-blue-up h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.7rem;
 }
-/* IMPOSTATO LA POSIZIONE, IL COLORE E LA GRANDEZZA DEL TESTO NELLA SEZIONE AZZURA DI SOPRA */
+/* IMPOSTATO LA POSIZIONE, IL COLORE E LA GRANDEZZA DEL TESTO NELLA SEZIONE AZZURRA DI SOPRA */
 .light-blue-up > span {
     position: absolute;
     color: grey;
     top: 60%;
     font-size: 0.8rem;
 }
-/* IMPOSTATO LE GRANDEZZE, IL COLORE E IL FLOAT DELLE SEZIONI AZZURE PICCOLE */
+/* IMPOSTATO LE GRANDEZZE, IL COLORE E IL FLOAT DELLE SEZIONI AZZURRE  */
 .light-blue-s{
     float: left;
-    background-color: #abcfe7;
     height: 500px;
     width: 20%;
+}
+/* IMPOSTATO LA GRANDEZZA DELLA SEZIONE IMMAGINI NELLE SEZIONI AZZURRE*/
+.container-img {
+    width: 100%;
+    height: 150px;
+    position: relative;
+    border-radius: 10px;
+}
+/* IMPOSTATO LE DIMENSIONI DELL'IMMAGINE DELLE SEZIONI AZZURRE */
+.light-blue-img {
+    border-radius: 10px;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+/* IMPOSTATO LE DIMENSIONI DELLA SEZIONE TESTO NELLE SEZIONI AZZURRE */
+.container-text {
+    width: 100%;
+    padding: 10px 0px;
+}
+/* IMPOSTATO LE DIMENSIONI DEL TESTO H3 NELLE SEZIONI AZZURRE */
+.container-text h3 {
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+}
+/* IMPOSTATO LE DIMENSIONI DEL TESTO P NELLE SEZIONI AZZURRE */
+.container-text p {
+    font-size: 0.8rem;
+    margin-bottom: 10px;
 }
 /* IMPOSTATO LE GRANDEZZE, IL COLORE E IL FLOAT DELLA SEZIONE AZZURA GRANDE */
 .light-blue-b{
     float: left;
-    background-color: #abcfe7;
     height: 500px;
     width: 56%;
     margin: auto 2%;
